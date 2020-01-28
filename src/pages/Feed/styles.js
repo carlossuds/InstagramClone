@@ -18,7 +18,7 @@ export const Avatar = styled.Image`
 `;
 
 export const Name = styled.Text`
-  color: #333;
+  color: black;
   font-weight: bold;
 `;
 
@@ -28,7 +28,7 @@ export const PostImage = styled.Image`
 `;
 
 export const Description = styled.Text`
-  padding: 15px;
+  padding: 5px 10px;
   line-height: 18px;
 `;
 
@@ -37,4 +37,17 @@ export const Loading = styled.ActivityIndicator.attrs({
   color: '#999',
 })`
   margin: 30px 0;
+`;
+
+export const Actions = styled.View`
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+`;
+export const LikeCmtShare = styled.View`
+  width: 35%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 `;
