@@ -28,7 +28,7 @@ const Routes = createAppContainer(
           <View
             style={{
               width: '100%',
-              paddingHorizontal: 20,
+              paddingHorizontal: '7%',
               flexDirection: 'row',
               alignItems: 'center',
               justifyContent: 'space-between',
