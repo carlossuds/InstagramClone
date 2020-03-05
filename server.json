@@ -13,7 +13,7 @@
         "avatar": "https://avatars3.githubusercontent.com/u/22120397?v=4"
       },
       "bookmarked": true,
-      "liked": true
+      "liked": false
     },
     {
       "id": 2,
@@ -27,8 +27,8 @@
         "name": "cleitonsouza",
         "avatar": "https://avatars0.githubusercontent.com/u/4669899?s=50&v=4"
       },
-      "bookmarked": true,
-      "liked": false
+      "liked": true,
+      "bookmarked": false
     },
     {
       "id": 3,
@@ -72,8 +72,13 @@
       "aspectRatio": 0.834,
       "description": "Node.js + ReactJS + React Native = <3",
       "authorId": 3,
-      "liked": false,
-      "bookmarked": false
+      "author": {
+        "id": 3,
+        "name": "pellizzetti",
+        "avatar": "https://avatars2.githubusercontent.com/u/16545335?s=50&v=4"
+      },
+      "liked": true,
+      "bookmarked": true
     },
     {
       "id": 7,
